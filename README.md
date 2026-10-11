@@ -67,7 +67,7 @@ The dataset contains product details, prices, discounts, ratings, sales quantiti
 
 ## Dashboard Screenshot
 
-![Blinkit Product Dashboard](/Users/darshanrn/Desktop/Updated Blinkit_Product_Dashboard.png)
+![Blinkit Product Dashboard] <img width="1217" height="866" alt="Updated Blinkit_Product_Dashboard" src="https://github.com/user-attachments/assets/0f203ea1-b04c-4855-9bee-af844a7f3f76" />
 
 ## Key Learnings
 
