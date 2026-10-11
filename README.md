@@ -1,52 +1,97 @@
-# SWYNEX - Blinkit Product Dashboard
+
+# SWYNEX – Blinkit Product Dashboard
 
 ## Project Overview
 
-This project was completed as part of my SWYNEX internship.
+This project was completed as part of my internship with SWYNEX Technologies.
 
-The objective was to build an interactive and professional dashboard using Tableau based on the cleaned Blinkit product dataset.
+The objective of this project is to develop an interactive dashboard using Tableau to analyze Blinkit product sales, pricing, demand, stock, and delivery performance.
 
-## Tool Used
+## Tools and Technologies
 
 - Tableau
-- Excel/CSV Dataset
-- GitHub
+- Python and Pandas (data preparation)
+- CSV Dataset
+- Git and GitHub
+
+## Dashboard KPIs
+
+The dashboard displays the following key performance indicators:
+
+- **Total Sold Quantity:** 273K (displayed value)
+- **Average Price:** 256
+- **Average Final Price:** 230
+- **Average Rating:** 4.2
+- **Average Delivery Time:** 27.8 minutes
+
+*Note: KPI values shown above reflect the current dashboard screenshot and may change when filters are applied.*
 
 ## Dashboard Features
 
-- Total Sold Quantity
-- Average Price
-- Average Final Price
-- Average Rating
-- Average Delivery Time
-- Sales by Category
-- Sales and Profit by City
-- Top 10 Products
-- Discount vs Sales
-- Stock vs Demand
-- Delivery Status Distribution
+### 1. Sales by Category
+Compares the total quantity sold across product categories, including Bakery, Grocery, Personal Care, Dairy, and Snacks.
+
+### 2. Sales and Profit by City
+Compares sales and profit across cities to help identify differences in city-level performance.
+
+### 3. Top 10 Products by Sales
+Highlights the top-selling products based on sold quantity.
+
+### 4. Discount vs Sales
+Visualizes the relationship between discount percentage and product sales quantity.
+
+### 5. Stock vs Demand
+Explores the relationship between product stock levels and demand index.
+
+### 6. Delivery Status
+Displays the distribution of on-time and delayed deliveries.
 
 ## Interactive Filters
+
+The dashboard supports interactive filters for:
 
 - City
 - Category
 - Brand
 - Offer Type
-- Is Organic
+- Organic Products
 - Delivery Status
 
-## Key Results
+These filters allow users to explore different parts of the dataset.
 
-- Total Sold Quantity: 2,111,201
-- Average Price: 267.30
-- Average Final Price: 240.74
-- Average Rating: 4.20
-- Average Delivery Time: 27.56 minutes
-- Average Profit Margin: 22.65%
+## Dataset
 
-## Dashboard
+The project uses the cleaned Blinkit product dataset prepared during the data cleaning task.
 
-The final Tableau dashboard provides an interactive view of product sales, pricing, demand, stock and delivery performance.
+The dataset contains product details, prices, discounts, ratings, sales quantities, stock levels, demand indicators, and delivery information.
+
+## Dashboard Screenshot
+
+![Blinkit Product Dashboard](/Users/darshanrn/Desktop/Updated Blinkit_Product_Dashboard.png)
+
+## Key Learnings
+
+Through this project, I gained practical experience in:
+
+- Creating interactive dashboards in Tableau
+- Designing KPI cards and charts
+- Applying filters and exploring data dynamically
+- Visualizing product sales and business performance
+- Presenting data insights in a clear and professional format
+- Managing project files using Git and GitHub
+
+## Repository Structure
+
+```text
+SWYNEX-Interactive-Dashboard/
+├── Dashboard/
+│   └── Blinkit Product Dashboard.twbx
+├── Screenshot/
+│   └── Blinkit_Product_Dashboard.png
+├── Data/
+│   └── Blinkit_Cleaned_Data.csv
+└── README.md
+```
 
 ## Author
 
